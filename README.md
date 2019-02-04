@@ -3,15 +3,16 @@
 # Introduction to TypeScript
 **2019 Esri Developer Summit - Pre-Summit Hands-on Training Mar 3-4, 2019**
 
-Description
+This course teaches using the TypeScript language combined with existing knowledge of JavaScript for application development. It does not define what type of development, such as Web Browser or node.js, it concentrates on the TypeScript language syntax and the corresponding JavaScript code into which it transpiles.
 
 ## Class Prerequisites
 
-prereqs
+All attendees must have intermediate-level experience developing web applications with JavaScript coding, libraries, and frameworks.
 
 ## Technical Setup and Requirements
 
-setup
+- TypeScript and JavaScript-aware IDE such as WebStorm or Visual Studio Code.
+- Lab files attached above
 
 ## Class Outline
 - Overview of JavaScript and TypeScript Development
