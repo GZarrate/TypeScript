@@ -7,11 +7,11 @@ Description
 
 ## Class Prerequisites
 
----
+prereqs
 
 ## Technical Setup and Requirements
 
----
+setup
 
 ## Class Outline
 - Overview of JavaScript and TypeScript Development
