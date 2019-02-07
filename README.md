@@ -17,7 +17,7 @@ All attendees must have intermediate-level experience developing web application
 ## Class Outline
 - Overview of JavaScript and TypeScript Development
   - ECMAScript vs JavaScript
-  - JavaScript Compared t  - Other Programming Languages
+  - JavaScript Compared to Other Programming Languages
   - JavaScript Engines
   - Web based JavaScript Development
   - Other types of JavaScript Development
@@ -46,7 +46,7 @@ All attendees must have intermediate-level experience developing web application
   - Duplicate Identifiers
 - Generics
   - What’s a generic?
-  - Why d  - we need generics?
+  - Why do we need generics?
   - Generics syntax
   - Writing a generic type
   - Using a generic type
