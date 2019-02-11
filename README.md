@@ -11,7 +11,9 @@ All attendees must have intermediate-level experience developing web application
 
 ## Technical Setup and Requirements
 
-### Software
+All downloads and installs must be done before class to ensure an on-time start.
+
+#### Software
 
 1. Web browser – please install a recent version of any of the following browsers, to view transpiled JavaScript output:
 	- Google Chrome - https://www.google.com/chrome/
@@ -46,7 +48,7 @@ All attendees must have intermediate-level experience developing web application
 	- Install with default settings (you must install Node.js first), and then verify the installation at the command line:  
 		```yarn --version```
 
-### Package Dependencies
+#### Package Dependencies
 Class files contain development environment dependencies, example code, frameworks, and reference images / links that will be used during class
 
 1. Create a folder for the Class Files on your computer, and navigate into that folder in your Command Prompt / Terminal.
@@ -68,7 +70,7 @@ Class files contain development environment dependencies, example code, framewor
 		```yarn run verify```  
 	- This should respond with Version 3.3.3, which means the TypeScript compiler has been successfully installed.
 
-### Class Files
+#### Class Files
 Check back before your session for updated class files.  These can be downloaded again following Step 2 from [Package Dependency](https://github.com/Esri-Accelebrate/TypeScript#package-dependencies) section above.
 
 ## Class Outline
