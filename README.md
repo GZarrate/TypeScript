@@ -34,13 +34,13 @@ All attendees must have intermediate-level experience developing web application
 		```node --version```  
 		```npm --version```  
 
-- Optional: Git
+4. Optional: Git
 	- Git is not required, but it can help with the downloading of class files and version control of the code you will develop in class.
 	- Download from https://git-scm.com/download (or use a Git client from another source).
 	- Install with default settings, and then verify the installation at the command line:  
 		```git --version```
 
-- Optional: Yarn
+5. Optional: Yarn
 	- Yarn installs required and optional packages for class if you prefer it over npm as your package manager.
 	- Download from https://yarnpkg.com/en/docs/install
 	- Install with default settings (you must install Node.js first), and then verify the installation at the command line:  
