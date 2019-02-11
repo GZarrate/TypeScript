@@ -11,8 +11,65 @@ All attendees must have intermediate-level experience developing web application
 
 ## Technical Setup and Requirements
 
-- TypeScript and JavaScript-aware IDE such as WebStorm or Visual Studio Code.
-- Lab files attached above
+### Software
+
+1. Web browser – please install a recent version of any of the following browsers, to view transpiled JavaScript output:
+	- Google Chrome - https://www.google.com/chrome/
+	- Mozilla Firefox - https://www.mozilla.org/en-US/firefox/
+	- Microsoft Edge - https://www.microsoft.com/en-us/windows/microsoft-edge
+
+2. An IDE (Integrated Development Environment) or code editor that helps with TypeScript syntax – any one of the following would be fine for class:
+	- Visual Studio Code - https://code.visualstudio.com/
+	- Visual Studio - https://www.visualstudio.com/downloads/
+	- WebStorm - https://www.jetbrains.com/webstorm/download/
+	- Sublime Text - https://www.sublimetext.com/
+	- Atom - https://atom.io/
+	- Brackets - http://brackets.io/
+
+3. Node.js / npm
+	- Node.js is useful for viewing transpiled JavaScript output, and it also includes npm, a package manager for installing required and optional packages for class.
+	- Download from https://nodejs.org/
+	- Either the “LTS (Long Term Support)” 10.x version or the “Current” 11.x version is fine for class.
+	- Install with default settings, and then verify the installation at the command line (note the double hyphens):  
+		```node --version```  
+		```npm --version```  
+
+- Optional: Git
+	- Git is not required, but it can help with the downloading of class files and version control of the code you will develop in class.
+	- Download from https://git-scm.com/download (or use a Git client from another source).
+	- Install with default settings, and then verify the installation at the command line:  
+		```git --version```
+
+- Optional: Yarn
+	- Yarn installs required and optional packages for class if you prefer it over npm as your package manager.
+	- Download from https://yarnpkg.com/en/docs/install
+	- Install with default settings (you must install Node.js first), and then verify the installation at the command line:  
+		```yarn --version```
+
+### Package Dependencies
+Class files contain development environment dependencies, example code, frameworks, and reference images / links that will be used during class
+
+1. Create a folder for the Class Files on your computer, and navigate into that folder in your Command Prompt / Terminal.
+
+2. Download the class files, either by Git or by web browser:
+	- If using Git, run this command inside the folder you created:  
+		```git clone https://github.com/Esri-Accelebrate/TypeScript.git```
+	- If you are not using Git, download this zip file and unzip the contents into the folder you created:  
+		https://github.com/Esri-Accelebrate/TypeScript/archive/master.zip
+
+3. Install Class File Dependencies
+	- In your Command Prompt / Terminal, navigate into the “TypeScript” or “TypeScript-master” folder of class files, and issue ONE of the following commands (note that npm and yarn are different tools for the same job):  
+		```npm install```  
+		```yarn install```  
+
+4. Verify the installation
+	- In your Command Prompt / Terminal, issue ONE of the following commands:  
+		```npm run verify```  
+		```yarn run verify```  
+	- This should respond with Version 3.3.3, which means the TypeScript compiler has been successfully installed.
+
+### Class Files
+Check back before your session for updated class files.  These can be downloaded again following Step 2 from Package Dependencies above.
 
 ## Class Outline
 - Overview of JavaScript and TypeScript Development
