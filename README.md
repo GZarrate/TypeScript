@@ -69,7 +69,7 @@ Class files contain development environment dependencies, example code, framewor
 	- This should respond with Version 3.3.3, which means the TypeScript compiler has been successfully installed.
 
 ### Class Files
-Check back before your session for updated class files.  These can be downloaded again following Step 2 from Package Dependencies above.
+Check back before your session for updated class files.  These can be downloaded again following Step 2 from [Package Dependency](https://github.com/Esri-Accelebrate/TypeScript#package-dependencies) section above.
 
 ## Class Outline
 - Overview of JavaScript and TypeScript Development
