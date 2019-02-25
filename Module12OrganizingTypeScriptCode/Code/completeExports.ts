@@ -1,6 +1,6 @@
 /*
  * Module 12 - Organizing TypeScript Code
- * Topics: 
+ * Topics:
  *      export Keyword
  */
 console.log("Module 12 - Organizing TypeScript Code completeExports.js loaded...");
@@ -11,6 +11,6 @@ console.log("Topic - export Keyword");
 console.log("****************************************************************");
 
 export const exportConst = 123;
-export type exportType = {};
-export interface exportInterface {}
-export class exportClass {} 
+export type ExportType = {};
+export interface IExportInterface {}
+export class ExportClass {}

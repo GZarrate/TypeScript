@@ -6,6 +6,8 @@
   "scripts": {
     "compile": "tsc",
     "dev": "lite-server",
+    "tslint": "tslint",
+    "tslint-init": "tslint --init",
     "verify": "tsc --version",
     "watch": "tsc --watch"
   },
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/Esri-Accelebrate/TypeScript#readme",
   "devDependencies": {
     "lite-server": "^2.4.0",
+    "tslint": "^5.12.1",
     "typescript": "^3.3.3"
   }
 }

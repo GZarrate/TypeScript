@@ -1,6 +1,6 @@
 /*
  * Module 14 - Promises and Asynchronous Functions
- * Topics: 
+ * Topics:
  *      Using Promises
  *      Promise States
  *      Promise Methods
@@ -14,8 +14,6 @@
  */
 console.log("Module 14 - Promises and Asynchronous Functions complete.js loaded...");
 
-
-namespace Complete {
 console.log("");
 console.log("****************************************************************");
 console.log("Topic - Using Promises");
@@ -35,23 +33,29 @@ console.log("****************************************************************");
 // Creating a Promise
 function asyncCallReturnPromiseLongSyntax(calledFrom: string): Promise<string> {
     function successOrFail(resolve, reject): any {
-        if (Math.floor(Math.random() * 2) == 0) resolve(`${calledFrom}: Async Function Successful!`);
-        else reject(`${calledFrom}: Async Function Failed :(`);
+        if (Math.floor(Math.random() * 2) === 0) {
+            resolve(`${calledFrom}: Async Function Successful!`);
+        } else {
+            reject(`${calledFrom}: Async Function Failed :(`);
+        }
     }
     function pretendAsyncFunction(resolve, reject) {
         setTimeout(successOrFail(resolve, reject), 250);
-    }    
-    let promise = new Promise<string>(pretendAsyncFunction);
+    }
+    const promise = new Promise<string>(pretendAsyncFunction);
     return promise;
 }
 
 function asyncCallReturnPromiseShortSyntax(calledFrom: string): Promise<string> {
     return new Promise<string>(function pretendAsyncFunction(resolve, reject) {
-        setTimeout(() => { 
-            if (Math.floor(Math.random() * 2) == 0) resolve(`${calledFrom}: Async Function Successful!`);
-            else reject(`${calledFrom}: Async Function Failed :(`);
+        setTimeout(() => {
+            if (Math.floor(Math.random() * 2) === 0) {
+                resolve(`${calledFrom}: Async Function Successful!`);
+            } else {
+                reject(`${calledFrom}: Async Function Failed :(`);
+            }
         } , 250);
-    });    
+    });
 }
 
 console.log("");
@@ -60,14 +64,13 @@ console.log("Topic - then() and catch() Methods");
 console.log("****************************************************************");
 
 // Promise States are pending, fulfilled, or rejected
-
 asyncCallReturnPromiseLongSyntax("then() and catch() Methods Long")
-    .then(successMessage => console.log(successMessage))
-    .catch(errorMessage => console.error(errorMessage));
+    .then((successMessage) => console.log(successMessage))
+    .catch((errorMessage) => console.error(errorMessage));
 
 asyncCallReturnPromiseShortSyntax("then() and catch() Methods Short")
-    .then(successMessage => console.log(successMessage))
-    .catch(errorMessage => console.error(errorMessage));
+    .then((successMessage) => console.log(successMessage))
+    .catch((errorMessage) => console.error(errorMessage));
 
 
 console.log("");
@@ -77,12 +80,12 @@ console.log("****************************************************************");
 
 // Promise.then() and Promise.catch() return a Promise, which allows for chaining
 asyncCallReturnPromiseLongSyntax("Promise Chaining (Outer)")
-    .then(successMessage => {
+    .then((successMessage) => {
         console.log(successMessage);
         return asyncCallReturnPromiseShortSyntax("Promise Chaining (Inner)");
     })
-    .then(successMessage => console.log(successMessage))
-    .catch(errorMessage => console.error(errorMessage));
+    .then((successMessage) => console.log(successMessage))
+    .catch((errorMessage) => console.error(errorMessage));
 
 
 console.log("");
@@ -93,8 +96,8 @@ console.log("****************************************************************");
 // Returns after all Promises are resolved
 Promise.all([asyncCallReturnPromiseLongSyntax("Multiple Promises Long"),
              asyncCallReturnPromiseShortSyntax("Multiple Promises Short")])
-    .then(returnValues => console.log(returnValues))
-    .catch(returnValues => console.error(returnValues));
+    .then((returnValues) => console.log(returnValues))
+    .catch((returnValues) => console.error(returnValues));
 
 
 console.log("");
@@ -118,7 +121,7 @@ console.log("Topic - await Keyword");
 console.log("****************************************************************");
 
 function resolveAfter1Seconds(value: number): Promise<number> {
-    return new Promise(resolve => { setTimeout(() => { resolve(value); }, 1000); });
+    return new Promise((resolve) => { setTimeout(() => { resolve(value); }, 1000); });
 }
 
 async function add(param1: number, param2: number): Promise<number> {
@@ -129,7 +132,6 @@ async function add(param1: number, param2: number): Promise<number> {
 
 // prints results after 2 seconds.
 add(10, 20)
-    .then(result => { console.log(`add(10, 20) is ${result}`); });
+    .then((result) => { console.log(`add(10, 20) is ${result}`); });
 
 // View transpiled JavaScript to see __awaiter code
-}

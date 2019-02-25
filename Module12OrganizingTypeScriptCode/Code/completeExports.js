@@ -9,5 +9,5 @@ console.log("****************************************************************");
 console.log("Topic - export Keyword");
 console.log("****************************************************************");
 export const exportConst = 123;
-export class exportClass {
+export class ExportClass {
 }
