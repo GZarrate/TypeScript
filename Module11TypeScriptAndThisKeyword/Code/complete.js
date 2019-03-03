@@ -106,3 +106,4 @@ console.log("thisObjectLiteral6.outerFunction()");
 thisObjectLiteral6.outerFunction();
 // Set "noImplicitThis": false in tsconfig.json
 // To eliminate earlier compile warnings
+//# sourceMappingURL=complete.js.map

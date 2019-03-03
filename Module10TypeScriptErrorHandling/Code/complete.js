@@ -59,3 +59,4 @@ class AJAXExecption {
 //                         "http://localhost:8080/api/data");
 // throw new AJAXExecption("AJAXException", "AJAX Exception",
 //                         "http://localhost:8080/api/data", innerException);
+//# sourceMappingURL=complete.js.map

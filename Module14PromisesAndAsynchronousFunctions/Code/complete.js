@@ -128,3 +128,4 @@ function add(param1, param2) {
 add(10, 20)
     .then((result) => { console.log(`add(10, 20) is ${result}`); });
 // View transpiled JavaScript to see __awaiter code
+//# sourceMappingURL=complete.js.map

@@ -6,13 +6,6 @@
  *      Function vs Block Level Scope
  *      Hoisting
  *      Shadowing
- *      Type Annotations
- *      Basic Types
- *      Truthy Falsy Values
- *      MultiLine String Delimiters
- *      Template Literals
- *      Any Types
- *      Type Assertion
  *      Understanding Boxing and UnBoxing
  */
 console.log("Module 05 - TypeScript Variables and Scope complete.js loaded...");
@@ -94,85 +87,6 @@ function globalFunction3() {
 globalFunction3();
 console.log("");
 console.log("****************************************************************");
-console.log("Topic - Type Annotations");
-console.log("****************************************************************");
-let variableTypeAnnotation1 = "Hello TypeScript";
-function functionTypeAnnotations1(param1) {
-    return param1.length;
-}
-console.log("length of variableTypeAnnotation1 is " + functionTypeAnnotations1(variableTypeAnnotation1));
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - Basic Types");
-console.log("****************************************************************");
-let letBoolean;
-let letBooleanTrue = true;
-let letBooleanFalse = false;
-let letNumber;
-let letNumber0 = 0;
-let letNumber5 = 5;
-let letString;
-let letStringEmpty = "";
-let letStringHello = "Hello";
-let letStringFalse = "False";
-console.log("letBoolean is " + letBoolean);
-console.log("letNumber is " + letNumber);
-console.log("letString is " + letString);
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - Truthy Falsy Values");
-console.log("****************************************************************");
-console.log("Boolean(letBoolean) is " + Boolean(letBoolean));
-console.log("Boolean(letBooleanTrue) is " + Boolean(letBooleanTrue));
-console.log("Boolean(letBooleanFalse) is " + Boolean(letBooleanFalse));
-console.log("Boolean(letNumber0) is " + Boolean(letNumber0));
-console.log("Boolean(letNumber5) is " + Boolean(letNumber5));
-console.log("Boolean(letStringEmpty) is " + Boolean(letStringEmpty));
-console.log("Boolean(letStringHello) is " + Boolean(letStringHello));
-console.log("Boolean(letStringFalse) is " + Boolean(letStringFalse));
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - MultiLine String Delimiters");
-console.log("****************************************************************");
-let multiLineString = `This is a
-very long string
-of words to demo
-the use of multi-
-line string delimiters`;
-console.log(multiLineString);
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - Template Literals");
-console.log("****************************************************************");
-let templateLiteralName = "Glenn Quagmire";
-console.log("Hello " + templateLiteralName + "!"); // Concatenation
-console.log(`Hello ${templateLiteralName}!`); // Template Literal
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - Any Types");
-console.log("****************************************************************");
-var any1 = true;
-console.log("typeof any1 is " + typeof any1);
-any1 = 5;
-console.log("typeof any1 is " + typeof any1);
-any1 = "hello";
-console.log("typeof any1 is " + typeof any1);
-any1 = null;
-console.log("typeof any1 is " + typeof any1);
-console.log("");
-console.log("****************************************************************");
-console.log("Topic - Type Assertion");
-console.log("****************************************************************");
-let assertAny1 = "string";
-let assertString1 = assertAny1;
-let assertString2 = assertAny1;
-// To demonstrate, show intellisense for each of the assert variables
-// Mostly used with objects and polymorphic behavior
-console.log("typeof assertAny1 is " + typeof assertAny1);
-console.log("typeof assertString1 is " + typeof assertString1);
-console.log("typeof assertString2 is " + typeof assertString2);
-console.log("");
-console.log("****************************************************************");
 console.log("Topic - Understanding Boxing and UnBoxing");
 console.log("****************************************************************");
 let valType = 0;
@@ -184,3 +98,4 @@ console.log("refType is " + refType);
 let newValType = Number(refType.toString()); // Unboxing
 newValType++;
 console.log("newValType is " + newValType);
+//# sourceMappingURL=complete.js.map

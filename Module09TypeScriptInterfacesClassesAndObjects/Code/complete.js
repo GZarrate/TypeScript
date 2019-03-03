@@ -269,3 +269,4 @@ console.log(`destructureProp1 is ${destructureProp1}`);
 console.log(`destructureProp2 is ${destructureProp2}`);
 console.log(`destructureProp3 is ${destructureProp3}`);
 destructureMethod1();
+//# sourceMappingURL=complete.js.map

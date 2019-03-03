@@ -16,3 +16,4 @@ genericsFunction1(true);
 genericsFunction1(5);
 genericsFunction1("string");
 // genericsFunction1<number>("five");                                       // Argument of type '"five"' is not assignable to parameter of type 'number'
+//# sourceMappingURL=complete.js.map

@@ -141,3 +141,4 @@ console.log(`functionOverloads1("1", "2") is ${functionOverloads1("1", "2")}`);
 console.log(`functionOverloads1(1, 2) is ${functionOverloads1(1, 2)}`);
 // console.log(`functionOverloads1("1", 2) is ${functionOverloads1("1", 2)}`);             // [ts] Argument of type "1" is not assignable to parameter of type 'number'
 // console.log(`functionOverloads1(true, false) is ${functionOverloads1(true, false)}`);   // [ts] Argument of type "true" is not assignable to parameter of type 'number'
+//# sourceMappingURL=complete.js.map
